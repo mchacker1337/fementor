@@ -1,0 +1,46 @@
+/* Create center section for main body */
+section{
+    border: 1;
+    background-color: hsl(225, 100%, 94%);
+    padding: 30px;
+    width: 200px;
+    height: 400px;
+    margin-top: 50px;
+    margin-inline: auto;
+    border-radius: 5px;
+    /* margin-top: 0 auto; */
+}
+.content p{
+    margin-top: 45px;
+}
+/* Alight the header center */
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.item{
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#co{
+    text-align: center;
+    color: darkgrey;
+}
+body{
+    text-align: center;
+    background-color: rgb(142, 199, 245);
+    justify-content: center;
+}
+.payment:hover{
+    background-color: navy;
+}
